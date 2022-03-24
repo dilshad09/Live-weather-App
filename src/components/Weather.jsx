@@ -66,7 +66,7 @@ export const Weather = ()=>{
           </div>
     
           {/* our temp card  */}
-          <WeatherCard/>
+          <WeatherCard weatherInfo={weatherInfo}/>
         </>
       );
     };
